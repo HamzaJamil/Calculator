@@ -1,7 +1,7 @@
 {
   "name": "calculator-by-hamza",
   "version": "1.1.0",
-  "description": "calculator program leart in typescript class",
+  "description": "calculator program learnt in typescript class",
   "main": "index.js",
   "type": "module",
   "bin": {
