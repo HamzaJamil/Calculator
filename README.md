@@ -12,7 +12,7 @@ Simple command line calculator using TypeScipt, Node.js, chalk and Inquirer. It 
 To run this project, open command line and run the following command
 
 ```bash
-  npx calculator-by-hamza
+  npx calculator_hamza
 ```
 
 
