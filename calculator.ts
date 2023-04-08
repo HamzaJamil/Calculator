@@ -37,19 +37,19 @@ do{
     // conditionals to check condition for Arithmatic Operation
     switch(answers.calculation){
     case 'Add':
-        console.log(chalk.yellow(`Addition Result ${answers.number1} + ${answers.number2}:  ${answers.number1 + answers.number2}`));
+        console.log(chalk.yellow(`Addition Result: ${answers.number1} + ${answers.number2} =  ${answers.number1 + answers.number2}`));
         break;
     case 'Subract':
-        console.log(chalk.yellow(`Subraction Result ${answers.number1} - ${answers.number2}:  ${answers.number1 - answers.number2}`));
+        console.log(chalk.yellow(`Subraction Result: ${answers.number1} - ${answers.number2} =  ${answers.number1 - answers.number2}`));
         break;
     case 'Multiply':
-        console.log(chalk.yellow(`Multiplication Result ${answers.number1} * ${answers.number2}:  ${answers.number1 * answers.number2}`));
+        console.log(chalk.yellow(`Multiplication Result: ${answers.number1} * ${answers.number2} =  ${answers.number1 * answers.number2}`));
         break;
     case 'Divide':
-        console.log(chalk.yellow(`Division Result ${answers.number1} / ${answers.number2}:  ${answers.number1 / answers.number2}`));
+        console.log(chalk.yellow(`Division Result: ${answers.number1} / ${answers.number2} =  ${answers.number1 / answers.number2}`));
         break;
     case 'Modulus':
-        console.log(chalk.yellow(`Modulus Result ${answers.number1} % ${answers.number2}:  ${answers.number1 % answers.number2}`));
+        console.log(chalk.yellow(`Modulus Result: ${answers.number1} % ${answers.number2} =  ${answers.number1 % answers.number2}`));
         break;
     }
    
